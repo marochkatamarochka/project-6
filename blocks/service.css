@@ -1,0 +1,32 @@
+.service__content {
+    color:  #000000;
+   }
+   .page-contant {
+    padding: 40px 0;
+    color:  #000000;
+   }
+   .service {
+    display: flex;
+   }
+.service__img {
+    width: 30%;
+    margin-right: 7%;
+}
+.service__content {
+    flex: 1;
+}
+   
+.service__content {
+    flex: 1;
+}
+   
+   .service__title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 22px;
+   }
+   .service__desc {
+    line-height: 1.7;
+    margin-bottom: 30px;
+    color:  #303030;
+}

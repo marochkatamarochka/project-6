@@ -1,0 +1,15 @@
+.menu {
+    
+ }
+ .menu__item {
+     display: inline-block;
+     vertical-align: middle;
+     margin-right: 51px;
+     list-style-type: none;
+ }
+ .menu__item:last-child {
+     margin-right: 0;
+ }
+ .menu__link:hover {
+     color: #DA0100;
+ }

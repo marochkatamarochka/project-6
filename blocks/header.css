@@ -1,0 +1,16 @@
+
+.header{
+  padding-top: 25px;
+  margin-bottom: 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__contacts {
+    display: flex;
+    align-items: center;
+}
+.header__contacts--align--right {
+    justify-content: flex-end;
+}

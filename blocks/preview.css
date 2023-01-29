@@ -1,0 +1,17 @@
+.preview {
+    margin-bottom: 243px ;
+}
+.preview__content{ 
+    width: 38%;
+   
+}
+.preview__title {
+font-size: 72px;
+line-height: 98px;
+margin-bottom: 27px;
+}
+.preview__text{
+margin-bottom: 33px;
+font-size: 18px;
+line-height: 20px;
+}

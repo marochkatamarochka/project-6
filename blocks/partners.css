@@ -1,0 +1,30 @@
+.partners__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -46px;
+}
+.partners__item {
+    margin-left: 46px;
+}
+/*.partners__item:nth-child( 4n + 1) {
+    margin-left: ;
+}*/
+.partners-section {
+    background: #F4F5F5;
+    color: #1A1B1E;
+    padding: 95px 0;
+}
+
+.partners__title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 75px;
+}
+.partners__link {
+    text-decoration: none ;
+    display: flex;
+    width: 250px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,25 @@
+@import url(./blocks/about.css);
+@import url(./blocks/base.css);
+@import url(./blocks/btn.css);
+ @import url(./blocks/contacts.css);
+ @import url(./blocks/fonts.css);
+ @import url(./blocks/footer.css);
+ @import url(./blocks/header.css);
+ @import url(./blocks/logo.css);
+ @import url(./blocks/menu.css);
+@import url(./blocks/news.css);
+@import url(./blocks/paginator.css);
+@import url(./blocks/preview.css);
+@import url(./blocks/socials.css);
+@import url(./blocks/tours.css);
+@import url(./blocks/wrapper.css);
+
+
+
+@import url(./blocks/top-line.css);
+@import url(./blocks/breadcrumbs.css);
+@import url(./blocks/page__title.css);
+@import url(./blocks/service.css);
+@import url(./blocks/partners.css);
+
+

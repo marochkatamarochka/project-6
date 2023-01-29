@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+html { 
+    overflow-x:  hidden;
+ }
+
+body {
+    font-family: "open sans";
+    color: #FFF;
+    font-size: 14px;
+    line-height: 21px;
+    -webkit-font-smoothing : antialiased;
+    margin: 0;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+h1, h2, h3, h4, p {
+    margin: 0;
+}
+.main {
+    margin-bottom: 51px;
+}
+.wrapper-main {
+    background: url(../img/hero.png) center top  no-repeat,
+     url(../img/fon2.png) center bottom no-repeat, #001821;
+   }
+   .wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    overflow: hidden;
+    min-width: 1200px;
+   }
+   .img {
+    display: block;
+    max-width: 100%;
+   }
+   

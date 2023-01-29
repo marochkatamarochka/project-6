@@ -1,0 +1,11 @@
+
+.container {
+    margin: 0 auto;
+    width: 1140px;
+} 
+.hero__container {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+min-height: 600px;
+}
