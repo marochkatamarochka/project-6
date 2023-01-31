@@ -58,26 +58,26 @@
 .tours__conditions {
     padding-left: 5px;
     margin-bottom: 23px;
+    display: flex;
+    align-items: center;
 }
 .tours__conditions-item {
-    display: inline-block;
-    vertical-align: middle;
     margin-right: 22px;
+    display: flex;
+    align-items: center;
+
 }
 .tours__conditions-item:last-child {
     margin-right: 0;
 }
 .tours__conditions-img{
-    display: inline-block;
-    vertical-align: middle;
+    margin-right: 9px;
 }
 .tours__conditions-case {
     font-size: 16px;
     line-height: 22px;
     color: #666;
     margin-right: 9px;
-    display: inline-block;
-    vertical-align: middle;
 }
 
 .tours__description {

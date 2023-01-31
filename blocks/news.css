@@ -11,17 +11,11 @@ justify-content: space-between;
 }
 .news__list {
     margin-bottom: 54px ;
-}
-.super-news{
-    position: relative;
-    border-radius: 4px;
-    overflow: hidden;
-   
+    display: flex;
+    align-items: flex-start;
 }
 .news__item {
     flex: 1;
-    display: inline-block;
-    vertical-align: top;
     position: relative;
     margin-right: 21px;
 }

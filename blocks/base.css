@@ -9,7 +9,7 @@ body {
     font-family: "open sans";
     color: #FFF;
     font-size: 14px;
-    line-height: 21px;
+    line-height: 1.42px;
     -webkit-font-smoothing : antialiased;
     margin: 0;
 }

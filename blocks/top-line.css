@@ -1,12 +1,22 @@
 .top-line {
-    min-height: 410px;
+    min-height: 412px;
     background: url(../img/headline\ 1.png) right top no-repeat;
     display: flex;
     flex-direction: column;
-       }
-       .top-line__container {
-        display: flex;
-        flex: 1;
-        flex-direction: column;
-        justify-content: space-between;
-       }
+    padding-bottom: 23px;
+ }
+.top-line__container {
+ display: flex;
+ flex: 1;
+ flex-direction: column;
+justify-content: space-between;
+}
+.top-line__header {
+    margin-bottom: 0;
+    padding-top: 30px;
+}
+.top-line__title {
+    font-size: 72px;
+    line-height: 1;
+    font-weight: bold;
+   }

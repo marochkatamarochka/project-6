@@ -1,16 +1,16 @@
 
 .header{
   padding-top: 25px;
-  margin-bottom: 30px;
+  margin-bottom: 125px;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.header__contacts {
+.header__col {
     display: flex;
     align-items: center;
 }
-.header__contacts--align--right {
+.header__col--align--right {
     justify-content: flex-end;
 }
