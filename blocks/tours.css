@@ -7,17 +7,15 @@
     justify-content: space-between;
 }
 .tours__title {
+    display: flex;
+    align-items: center;
     font-size: 36px;
     line-height: 49px;
     font-weight: bold;
     margin-bottom: 51px;
-    display: inline-block;
-    vertical-align: middle;
 }
 .tours__title-icon {
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 5px;
+    margin-left: 15px;
 }
 .tours__item {
     background: #FFF;

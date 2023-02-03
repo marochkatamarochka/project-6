@@ -30,3 +30,24 @@
         margin: 0 auto;
         position: relative;
     }
+
+
+button {
+background: transparent;
+cursor: pointer;
+}
+
+.btn--color--black {
+background:#8E8E8E;
+border: none;
+}
+.btn--color--black:hover {
+background:  #2B2B2B ;
+}
+.btn--color--red {
+background: #F5170E;
+border: none;
+}
+.btn--color--red:hover {
+background:  #F5170E ;
+}

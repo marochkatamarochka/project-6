@@ -9,7 +9,7 @@ body {
     font-family: "open sans";
     color: #FFF;
     font-size: 14px;
-    line-height: 1.42px;
+    line-height: 1.42;
     -webkit-font-smoothing : antialiased;
     margin: 0;
 }
@@ -44,4 +44,4 @@ h1, h2, h3, h4, p {
     display: block;
     max-width: 100%;
    }
-   
+ 

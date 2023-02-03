@@ -14,6 +14,7 @@
 @import url(./blocks/tours.css);
 @import url(./blocks/wrapper.css);
 
+@import url(./blocks/dropdown.css);
 
 
 @import url(./blocks/top-line.css);
@@ -22,3 +23,12 @@
 @import url(./blocks/partners.css);
 
 
+
+@import url(./blocks/central.css);
+@import url(./blocks/welcome.css);
+
+
+
+@import url(./blocks/review.css);
+@import url(./blocks/desire.css);
+@import url(./blocks/form.css);

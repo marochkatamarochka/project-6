@@ -1,15 +1,12 @@
 .footer__content{
-
+    padding: 44px 0 50px;
     border-top: 1px solid #192f37;
-    padding-top: 47px;
-    padding: 47px 0 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .footer {
-  
     margin-top: auto;
     position: relative;
     display: flex;
@@ -25,9 +22,8 @@
     align-items: center;
 }
 .footer__socials {
-    margin-right: 78px;
+    margin-right: 72px;
 }
-
 
 
 

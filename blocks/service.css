@@ -1,12 +1,11 @@
 .services {
-    padding-top: 98px 0 85px;
-    margin-top: 98px;
+    padding: 98px 0 85px;
 }
 .services__list {
     margin-bottom: 63px;
 }
 .services__item {
-    margin-bottom: 49px;
+    margin-bottom: 44px;
 }
 .services__item:last-child {
     margin-bottom: 0;

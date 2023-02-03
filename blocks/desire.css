@@ -1,0 +1,19 @@
+.desire {
+    background:  url(../img/couple.png) right 20% bottom no-repeat, url(../img/Rectangle.png) center no-repeat;
+    min-height: 360px;
+    margin-top: 94px;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   color: #fff ;
+}
+
+.desire__content {
+    max-width: 50%;
+}
+.desire__title {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.1;
+  
+}
