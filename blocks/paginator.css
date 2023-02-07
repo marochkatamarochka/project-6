@@ -2,11 +2,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 16px;
+    transition: opacity .3s ;
 }
 
 
 .paginator__display {
-    font-size: 16px;
+   
     margin-right: 25px;
     padding-left: 10px;
 }

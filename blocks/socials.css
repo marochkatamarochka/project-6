@@ -1,51 +1,140 @@
 .socials__list {
     display: flex;
     align-items: center;
-    margin-right: 72px;
+ 
 }
 .social__link {
     display: block;
     text-decoration: none;
     width: 36px;
     height: 36px;
-    background: center center no-repeat;
+   
 }
 .social__item {
     margin-right: 10px;
 }
-.social__item:last-child {
-    margin-right: 0;
-}
+
+   
+
+   .social__icon-tg:after {
+    background-image: url("../img/sprites.png") -10px -10px ;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+     height: 36px;
+     transition: .3s;
+    }
+   
+    
+   .social__icon-tg:before {
+    background-image: url("../img/sprites.png")  -66px -10px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+     height: 36px;
+     opacity: 0;
+     transition: .3s;
+    }
+    .social__icon-tg:hover:before {
+        opacity: 1;
+    }
+    .social__icon-tg:hover:after {
+        opacity: 0;
+    }
+
+  /*  .social__icon-vk:after {
+        background-image: url("../img/sprites.png") -178px -10px ;
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 36px;
+         height: 36px;
+        }
+       
+        
+       .social__icon-vk:before {
+        background-image: url("../img/sprites.png") -122px -10px;
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 36px;
+         height: 36px;
+         opacity: 0;
+        }
+        .social__icon-vk:hover:before {
+            opacity: 1;
+        }
+        .social__icon-vk:hover:after {
+            opacity: 0;
+        }
 
 
+        .social__icon-fb:after {
+            background-image: url("../img/sprites.png")  -234px -10px;
+            display: block;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 36px;
+             height: 36px;
+            }
+           
+            
+           .social__icon-fb:before {
+            background-image: url("../img/sprites.png") -290px -10px;
+            display: block;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 36px;
+             height: 36px;
+             opacity: 0;
+            }
+            .social__icon-fb:hover:before {
+                opacity: 1;
+            }
+            .social__icon-fb:hover:after {
+                opacity: 0;
+            }
 
-.social__icon-tg {
-background-image: url("../img/telegram.png");
-
-}
-
-.social__icon-vk {
-background-image: url("../img/vk.png");
-}
-.social__icon-fb {
-background-image: url("../img/f.png");
-}
-.social__icon-in {
-background-image: url("../img/in.png");
-}
-
-.social__icon-tg:hover {
-  background-image: url("../img/tg.png");
-     }
+            .social__icon-in:after {
+                background-image: url("../img/sprites.png")   -346px -10px;
+                display: block;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 36px;
+                 height: 36px;
+                }
+               
                 
-.social__icon-vk:hover {
-     background-image: url("../img/vkontacteee.png");
-     }
-                
- .social__icon-fb:hover {
-  background-image: url("../img/fbbb.png");
-     }
-                
-.social__icon-in:hover {
-   background-image: url("../img/instaa.png");
-   }
+               .social__icon-in:before {
+                background-image: url("../img/sprites.png") -402px -10px;
+                display: block;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 36px;
+                 height: 36px;
+                 opacity: 0;
+                }
+                .social__icon-in:hover:before {
+                    opacity: 1;
+                }
+                .social__icon-in:hover:after {
+                    opacity: 0;
+                }

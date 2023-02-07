@@ -36,4 +36,9 @@
     height: 125px;
     align-items: center;
     justify-content: center;
+    filter: grayscale(1);
+    transition: filter .3s;
+}
+a.partners__link:hover {
+    filter: grayscale(0);
 }

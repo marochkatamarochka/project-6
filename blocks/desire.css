@@ -1,19 +1,20 @@
 .desire {
-    background:  url(../img/couple.png) right 20% bottom no-repeat, url(../img/Rectangle.png) center no-repeat;
+    background: url(../img/Rectangle.png) center no-repeat;
     min-height: 360px;
-    margin-top: 94px;
     display: flex;
-    flex-direction: column;
-   justify-content: center;
    color: #fff ;
+}
+.decire__container {
+display: flex;
+align-items: center;
+background:  url(../img/couple.png) right 5% bottom no-repeat;
 }
 
 .desire__content {
-    max-width: 50%;
+    max-width: 54%;
 }
 .desire__title {
     font-size: 48px;
-    font-weight: bold;
-    line-height: 1.1;
-  
+    line-height: 1.35;
+    font-weight: bold;  
 }

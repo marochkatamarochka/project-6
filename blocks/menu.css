@@ -1,5 +1,6 @@
 .menu__list {
     display: flex;
+    transition: opacity .3s ;
  }
  .menu__item {
     margin-right: 54px;

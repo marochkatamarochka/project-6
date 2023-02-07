@@ -1,26 +1,39 @@
+.main-reviews {
+    margin-bottom: 0;
+}
+.reviews {
+    padding: 98px 0 86px;
+    background: #fff;
+    
+}
 .reviews__list {
     column-count: 2;
-    column-gap: 30px;
+    column-gap: 27px;
+    margin-bottom: 58px;
 }
 .reviews__item {
     display: inline-block;
     margin-bottom: 26px;
+    background: #F4F5F5;
+border-radius: 5px;
+margin-bottom: 17px;
+padding: 51px 31px 32px;
 }
-.review {
-    padding: 50px 30px;
-    background: #fff;
-    margin-bottom: 76px;
-}
+
 .reviews__img {
     width: 140px;
     height: 140px;
     overflow: hidden;
     border-radius: 50%;
+    margin-right: 20px;
 }
 .reviews__head {
     display: flex;
     align-items: center;
     margin-bottom: 30px;
+}
+.review__person {
+    margin-bottom: 8px;
 }
 .reviews__person-name {
     display: flex;
@@ -28,15 +41,20 @@
     font-size: 24px;
     font-weight: bold;
     color:  #2E77A4;
-    margin-bottom: 11px;
+   
 }
 .reviews__person-name::after {
-    content: url(../img/vk-blue\ 1.png);
-    height: 29px;
+   content: '';
+    background: url(../img/vk-blue\ 1.png) center no-repeat;
+    width: 30px;
+height: 30px;
+margin-left: 9px;
 }
 .reviews__tags {
     display: flex;
     align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 5px;
 }
 .reviews__tag {
     font-size: 13px;
@@ -50,16 +68,21 @@
     font-size: 30px;
     color: #1A1B1E;
     font-weight: bold;
-    margin-bottom: 23px;
+    margin-bottom: 12px;
+    line-height: 42px;
 }
 .reviews__text {
     color: 
     #818181;
     margin-bottom: 50px;
     font-size: 16px;
+    line-height: 27px;
 }
 .reviews__date {
     color: #1A1B1E;
     font-size: 14px;
     font-weight: bold;
+}
+.reviews__paginator {
+    margin-left: -33px;
 }

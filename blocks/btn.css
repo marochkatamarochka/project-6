@@ -9,6 +9,7 @@
     font-size: 14px;
     line-height: 20px;
     padding: 18px 40px;
+    transition: opaciy .3s ;
     }
     .btn:hover{
         background: #F5170E;
@@ -35,6 +36,7 @@
 button {
 background: transparent;
 cursor: pointer;
+transition: opaciy .3s ;
 }
 
 .btn--color--black {
