@@ -9,10 +9,10 @@
     font-size: 14px;
     line-height: 20px;
     padding: 18px 40px;
-    transition: opaciy .3s ;
+    transition: background .3s, color .3s, border-color .3s, box-shadow .3s ;
     }
     .btn:hover{
-        background: #F5170E;
+        background: #DA0100;
         box-shadow:  0px 2px 4px rgba(218, 1, 0, 0,3) #DA0100;
     }
     .btn--size-middle {
@@ -36,7 +36,6 @@
 button {
 background: transparent;
 cursor: pointer;
-transition: opaciy .3s ;
 }
 
 .btn--color--black {
@@ -45,11 +44,4 @@ border: none;
 }
 .btn--color--black:hover {
 background:  #2B2B2B ;
-}
-.btn--color--red {
-background: #F5170E;
-border: none;
-}
-.btn--color--red:hover {
-background:  #F5170E ;
 }

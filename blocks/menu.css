@@ -9,6 +9,9 @@
  .menu__item:last-child {
      margin-right: 0;
  }
- .menu__link:hover {
+ .menu__link {
+    transition: color .3s;
+ }
+ .menu__link:hover, .menu__link--active{
      color: #DA0100;
  }

@@ -38,6 +38,7 @@
     height: 32px;
     line-height: 32px;
     border-radius: 50%;
+    transition: background .3s, color 3s ;
 }
 
 .paginator--light {
